@@ -1,0 +1,27 @@
+@font-face {
+  font-family: latoregular;
+  src: url(../fonts/Lato-Regular.ttf);
+  font-family: gothamblack;
+  src: url(../fonts/GothamBlack.ttf);
+  font-family: opensans;
+  src: url(../fonts/OpenSans-Light.ttf);
+  font-family: latobold;
+  src: url(../fonts/LatoBold.ttf);
+}
+
+.font-fam-lato {
+  font-family: latoregular;
+}
+
+.font-fam-gothamblack {
+  font-family: gothamblack;
+}
+
+.font-fam-lato-bold {
+  font-family: lato-bold;
+}
+
+.font-fam-opensans {
+  font-family: opensans;
+  font-weight: 100;
+}
