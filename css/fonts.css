@@ -2,11 +2,11 @@
   font-family: latoregular;
   src: url(../fonts/Lato-Regular.ttf);
   font-family: gothamblack;
-  src: url(../fonts/GothamBlack.ttf);
+  src: url(fonts/Gotham-1.ttf) format('truetype');
   font-family: opensans;
-  src: url(../fonts/OpenSans-Light.ttf);
-  font-family: latobold;
-  src: url(../fonts/LatoBold.ttf);
+  src: url(fonts/opensans.woff2) format('woff2'), url(fonts/opensans.woff) format('woff'), url(fonts/opensans.ttf) format('truetype');
+  font-family: lato-bold;
+  src: url(../fonts/Lato.ttf);
 }
 
 .font-fam-lato {
@@ -21,7 +21,11 @@
   font-family: lato-bold;
 }
 
+.font-fam-lato {
+  font-family: "lato";
+}
+
 .font-fam-opensans {
-  font-family: opensans;
-  font-weight: 100;
+  font-family: "Open Sans";
+
 }
